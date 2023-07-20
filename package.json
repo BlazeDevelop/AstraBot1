@@ -1,0 +1,43 @@
+{
+    "dependencies": {
+        "@discordjs/builders": "^1.4.0",
+        "@discordjs/rest": "^1.5.0",
+        "@discordjs/voice": "^0.14.0",
+        "axios": "^1.3.4",
+        "discord-player": "^5.4.0",
+        "discord-tictactoe": "^3.2.1",
+        "discord-xp": "1.1",
+        "discord.js": "13.1",
+        "discord.js-commando": "^0.12.3",
+        "fs": "^0.0.1-security",
+        "lyrics-finder": "^21.7.0",
+        "mathjs": "^11.6.0",
+        "moment": "^2.29.4",
+        "mongoose": "^6.9.1",
+        "mongose": "^0.0.2-security",
+        "ms": "^2.1.3",
+        "nerdamer": "^1.1.13",
+        "node-cron": "^3.0.2",
+        "node-fetch": "^3.3.0",
+        "prism-media": "^1.3.5",
+        "randomstring": "^1.2.3",
+        "weather-js": "^2.0.0"
+    },
+    "name": "wizards-system",
+    "version": "1.0.0",
+    "main": "bot.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BlazeDevelop/wizsys.git"
+    },
+    "author": "fblazedev",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BlazeDevelop/wizsys/issues"
+    },
+    "homepage": "https://github.com/BlazeDevelop/wizsys#readme",
+    "description": ""
+}

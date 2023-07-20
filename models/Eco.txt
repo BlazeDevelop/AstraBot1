@@ -1,0 +1,37 @@
+const mongoose = require('mongoose');
+
+const economySchema = new mongoose.Schema({
+    userID: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    balance: {
+        type: Number,
+        default: 100
+    },
+    lastRobbery: {
+        type: Date,
+        default: null
+    },
+    lastWork: {
+        type: Date,
+        default: null
+    },
+    lastDaily: {
+        type: Date,
+        default: null
+    },
+    lastWeekly: {
+        type: Date,
+        default: null
+    },
+    lastChest: {
+        type: Date,
+        default: null
+    }
+});
+
+const Economy = mongoose.model('Economy', economySchema);
+
+module.exports = { Economy };
